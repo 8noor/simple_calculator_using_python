@@ -31,7 +31,7 @@ def main():
                 result = num1 / num2
                 symbol = "/"
 
-                st.success(f"{num1} {symbol} {num2} = {result}")
+            st.success(f"{num1} {symbol} {num2} = {result}")
         except Exception as e:
             st.error(f"An Error Occured: {str(e)}")
           
