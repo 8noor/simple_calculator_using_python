@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.title("Simple Calculator")
+    st.title("Simple Calculator🔢")
     st.write("Enter the numbers and choose an operation")
 
     col1, col2 = st.columns(2)
